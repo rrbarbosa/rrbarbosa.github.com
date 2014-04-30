@@ -1,6 +1,28 @@
 .style {
     padding: 4px;
 }
+.paragraph_style {
+    color: rgb(255, 255, 255);
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
 .style_SkipStroke_2 {
     background: transparent;
     opacity: 1.00;
@@ -13,17 +35,44 @@
     background: transparent;
     opacity: 1.00;
 }
-.style_SkipStroke_3 {
-    background: transparent;
+.style_1 {
+    color: rgb(255, 255, 255);
+    line-height: 20px;
     opacity: 1.00;
+}
+.paragraph_style_1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
 }
 .style_External_640_50 {
     position: relative;
 }
-.style_External_393_226 {
+.style_SkipStroke_3 {
+    background: transparent;
+    opacity: 1.00;
+}
+.style_External_652_226 {
     position: relative;
 }
-.Body {
+.Free_Form {
     color: rgb(255, 255, 255);
     font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
     font-size: 14px;
@@ -32,7 +81,7 @@
     font-variant: normal;
     font-weight: 500;
     letter-spacing: 0;
-    line-height: 21px;
+    line-height: 19px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -92,10 +141,10 @@
 .Normal {
     padding: 4px;
 }
-.Normal_External_640_50 {
+.Normal_External_652_226 {
     position: relative;
 }
-.Normal_External_393_226 {
+.Normal_External_640_50 {
     position: relative;
 }
 .Sidebar_Body {
@@ -186,11 +235,11 @@
 .graphic_shape_layout_style_default_External_393_29 {
     position: relative;
 }
+.graphic_textbox_layout_style_default_External_256_341 {
+    position: relative;
+}
 .graphic_textbox_layout_style_default {
     padding: 4px;
-}
-.graphic_textbox_layout_style_default_External_256_781 {
-    position: relative;
 }
 a {
     color: rgb(203, 203, 203);
@@ -199,26 +248,6 @@ a {
 a:visited {
     color: rgb(121, 121, 124);
     text-decoration: none;
-}
-a.class1 {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-a.class1:visited {
-    color: rgb(203, 203, 203);
-}
-a.class1:hover {
-    color: rgb(255, 77, 65);
-}
-a.class2 {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-}
-a.class2:visited {
-    color: rgb(203, 203, 203);
-}
-a.class2:hover {
-    color: rgb(255, 77, 65);
 }
 a:hover {
     color: rgb(189, 37, 44);
@@ -240,16 +269,8 @@ a:hover {
     font-size: 1px;
     line-height: 1px;
 }
-#widget3 a:visited {
-    color: rgb(121, 121, 124);
-    text-decoration: none;
-}
 #widget2 a:visited {
     color: rgb(121, 121, 124);
-    text-decoration: none;
-}
-#widget3 a:hover {
-    color: rgb(189, 37, 44);
     text-decoration: none;
 }
 .tinyText {
@@ -279,10 +300,6 @@ a:hover {
 .bumper {
     font-size: 1px;
     line-height: 1px;
-}
-#widget3 a {
-    color: rgb(203, 203, 203);
-    text-decoration: none;
 }
 body { 
     -webkit-text-size-adjust: none;
